@@ -1,6 +1,6 @@
 import React, {forwardRef, useImperativeHandle, useState} from 'react'
 import PropTypes from 'prop-types'
-import i18n from '../i18n/index'
+import i18n from '../../i18n/index'
 
 const Togglable = forwardRef(({children, buttonLabel = 'show'}, ref) => {
   const [visible, setVisible] = useState(false)
